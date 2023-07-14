@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    overflow: hidden;
+    position: relative;
+}
+#page
+{
+    height: 100%;
+    width: 100%;
+    background: grey;
+}
+#cpu-logo
+{
+    color: white;
+    font-size: 30pt;
+}
+.bg-body-tertiary{
+    --bs-bg-opacity: 0.4;
+}
+#nav .nav-link{
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    border-radius: 3rem;
+    transition: 0.2s ease-in-out;
+}
+#nav .nav-link:hover{
+    box-shadow: 2px 2px 10px black;
+    background-color: white;
+    color: black;
+}
